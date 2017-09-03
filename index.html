@@ -1,9 +1,27 @@
 <!DOCTYPE html>
-<html>
-<head><title>Devin Hyojun Jeon</title>
-    <meta charset='utf-8'>
-    <link href='static/index.css' rel='stylesheet'>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="shortcut icon" href="static/favicon.ico">
+    <title>Devin Hyojun Jeon</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link href='static/index.css' rel='stylesheet'>
+    <script>
+        var about_me = "https://www.devinis.me/portfolio/";
+        var mail = "mailto:jeonhyojun@devinis.me";
+        var blog = "https://blog.devinis.me/";
+        var github = "https://github.com/devinjeon/";
+        var facebook = "https://www.facebook.com/devin.jeonhyojun/";
+        function open_link(link) {
+            window.open(link, '_blank');
+        }
+        function send_mail() {
+            window.open(mail, '_blank');
+        }
+    </script>
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -23,53 +41,30 @@
     </script>
 </head>
 <body>
-<div id='preview-contents' class='note-content'>
-
-
-    <div class="outer">
-        <div class="middle">
-            <div class="inner">
-
-
-                <h3 id="devin-hyojun-jeon">
-                    <center>Devin Hyojun Jeon</center>
-                </h3>
-                <center>
-                    <table>
-                        <thead>
-                        <tr>
-                            <th>Site</th>
-                            <th>Link</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>Email</td>
-                            <td><a href="mailto:jeonhyojun@devinis.me" target="_blank">jeonhyojun@devinis.me</a></td>
-                        </tr>
-                        <tr>
-                            <td>About me</td>
-                            <td><a href="https://www.devinis.me/portfolio/" target="_blank">https://www.devinis.me/portfolio/</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Blog</td>
-                            <td><a href="https://blog.devinis.me/" target="_blank">https://blog.devinis.me/</a></td>
-                        </tr>
-                        <tr>
-                            <td>Github</td>
-                            <td><a href="https://github.com/devinjeon/"
-                                   target="_blank">https://github.com/devinjeon/</a></td>
-                        </tr>
-                        <tr>
-                            <td>Facebook</td>
-                            <td><a href="https://www.facebook.com/devin.jeonhyojun/"
-                                   target="_blank">@devin.jeonhyojun</a></td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </center>
-            </div>
+<div class="content">
+    <h1>Devin Hyojun Jeon</h1>
+    <p>Contact &mdash; <a href="javascript:send_mail();" class="mail">jeonhyojun@devinis.me</a></p>
+    <br>
+    <div class="link">
+        <div>
+            <button type="button" class="btn btn-normal btn-aboutme" style="outline : none;"
+                    onclick="open_link(about_me)">About me
+            </button>
+        </div>
+        <div>
+            <button type="button" class="btn btn-normal btn-blog"
+                    onclick="open_link(blog);">Blog
+            </button>
+        </div>
+        <div>
+            <button type="button" class="btn btn-normal btn-github"
+                    onclick="open_link(github);">GitHub
+            </button>
+        </div>
+        <div>
+            <button type="button" class="btn btn-normal btn-facebook"
+                    onclick="open_link(facebook);">Facebook
+            </button>
         </div>
     </div>
 </div>
