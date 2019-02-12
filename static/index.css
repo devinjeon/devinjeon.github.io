@@ -44,19 +44,19 @@ p {
     height: 60px;
 }
 
-.btn-me {
+.btn-resume {
     color: #5BB66F;
     background-color: transparent;
     background-image: none;
 }
 
-.btn-me.active, .btn-resume:active, .show > .btn-resume.dropdown-toggle {
+.btn-resume.active, .btn-resume:active, .show > .btn-resume.dropdown-toggle {
     color: #fff;
     background-color: #3d884d;
     border-color: #77ab82;
 }
 
-.btn-me:hover {
+.btn-resume:hover {
     color: #fff;
     background-color: #3d884d;
     border-color: #77ab82;
