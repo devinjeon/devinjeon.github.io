@@ -14,6 +14,12 @@ h1 {
     padding-bottom: 20px;
 }
 
+section {
+    max-width: 100%;
+    width: 550px;
+    margin: 0 auto;
+}
+
 p {
     text-align: center;
 }
@@ -103,12 +109,4 @@ a:hover, a.active, a:active, .show > a.dropdown-toggle {
     color: #fff;
     background-color: #3b5998;
     border-color: #8B9DC3;
-}
-
-.content {
-    display: block;
-    text-align: center;
-    max-width: 100%;
-    width: 550px;
-    margin: 0 auto;
 }
