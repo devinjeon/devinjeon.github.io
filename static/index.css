@@ -18,113 +18,15 @@ p {
     text-align: center;
 }
 
+a:hover, a.active, a:active, .show > a.dropdown-toggle {
+    text-decoration:none;
+}
+
 .mail {
     color: #dc8100;
 }
 
-.btn {
-    display: inline-block;
-    margin-bottom: 0;
-    font-weight: normal;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    background-image: none;
-    border: 3px solid transparent;
-    white-space: nowrap;
-    padding: 6px 12px;
-    font-size: 20px;
-    line-height: 1.45;
-    border-radius: 4px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    width: 100%;
-    height: 60px;
-}
-
-.btn-resume {
-    color: #5BB66F;
-    background-color: transparent;
-    background-image: none;
-}
-
-.btn-resume.active, .btn-resume:active, .show > .btn-resume.dropdown-toggle {
-    color: #fff;
-    background-color: #3d884d;
-    border-color: #77ab82;
-}
-
-.btn-resume:hover {
-    color: #fff;
-    background-color: #3d884d;
-    border-color: #77ab82;
-}
-
-.btn-linkedin {
-    color: #0077b5;
-    background-color: transparent;
-    background-image: none;
-}
-
-.btn-linkedin.active, .btn-linkedin:active, .show > .btn-linkedin.dropdown-toggle {
-    color: #fff;
-    background-color: #0077b5;
-    border-color: #00a0dc;
-}
-
-.btn-linkedin:hover {
-    color: #fff;
-    background-color: #6bacce;
-    border-color: #A6CDE1;
-}
-
-.btn-github {
-    color: #393e42;
-    background-color: transparent;
-    background-image: none;
-}
-
-.btn-github.active, .btn-github:active, .show > .btn-github.dropdown-toggle {
-    color: #fafbfc;
-    background-color: #393e42;
-    border-color: #7F8387;
-}
-
-.btn-github:hover {
-    color: #fafbfc;
-    background-color: #393e42;
-    border-color: #7F8387;
-}
-
-.btn-facebook {
-    color: #3b5998;
-    background-color: transparent;
-    background-image: none;
-}
-
-.btn-facebook.active, .btn-facebook:active, .show > .btn-facebook.dropdown-toggle {
-    color: #fff;
-    background-color: #3b5998;
-    border-color: #8B9DC3;
-}
-
-.btn-facebook:hover {
-    color: #fff;
-    background-color: #3b5998;
-    border-color: #8B9DC3;
-}
-
-.content {
-    display: block;
-    text-align: center;
-    max-width: 100%;
-    width: 550px;
-    margin: 0 auto;
-}
-
-.link {
+.links {
     max-width: 60%;
     margin: 0 auto;
 }
@@ -138,13 +40,75 @@ p {
         font-size: 30px;
     }
 
-    .link {
+    .links {
         max-width: 80%;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    .link {
+    .links {
         max-width: 100%;
     }
+}
+
+.link {
+    display: inline-block;
+    border: 3px solid transparent;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 4px;
+    width: 100%;
+    height: 60px;
+}
+
+.link-resume {
+    color: #5BB66F;
+    background-color: transparent;
+}
+
+.link-resume:hover, .link-resume.active, .link-resume:active, .show > .link-resume.dropdown-toggle {
+    color: #fff;
+    background-color: #3d884d;
+    border-color: #77ab82;
+}
+
+.link-linkedin {
+    color: #0077b5;
+    background-color: transparent;
+}
+
+.link-linkedin:hover, .link-linkedin.active, .link-linkedin:active, .show > .link-linkedin.dropdown-toggle {
+    color: #fff;
+    background-color: #0077b5;
+    border-color: #00a0dc;
+}
+
+.link-github {
+    color: #393e42;
+    background-color: transparent;
+}
+
+.link-github:hover, .link-github.active, .link-github:active, .show > .link-github.dropdown-toggle {
+    color: #fafbfc;
+    background-color: #393e42;
+    border-color: #7F8387;
+}
+
+.link-facebook {
+    color: #3b5998;
+    background-color: transparent;
+}
+
+.link-facebook:hover, .link-facebook.active, .link-facebook:active, .show > .link-facebook.dropdown-toggle {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: #8B9DC3;
+}
+
+.content {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    width: 550px;
+    margin: 0 auto;
 }
