@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: 'Work Sans', sans-serif;
-    padding: 10%;
+    padding: 14%;
     margin-top: 5%;
     color: #333;
 }
@@ -98,15 +98,4 @@ a:hover, a.active, a:active, .show > a.dropdown-toggle {
     color: #fafbfc;
     background-color: #393e42;
     border-color: #7F8387;
-}
-
-.link-facebook {
-    color: #3b5998;
-    background-color: transparent;
-}
-
-.link-facebook:hover, .link-facebook.active, .link-facebook:active, .show > .link-facebook.dropdown-toggle {
-    color: #fff;
-    background-color: #3b5998;
-    border-color: #8B9DC3;
 }
