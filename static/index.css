@@ -1,8 +1,7 @@
 body {
     text-align: center;
     font-family: 'Work Sans', sans-serif;
-    padding: 14%;
-    margin-top: 5%;
+    margin-top: 20%;
     color: #333;
 }
 
@@ -41,26 +40,6 @@ a:hover, a.active, a:active, .show > a.dropdown-toggle {
 .links {
     max-width: 60%;
     margin: 0 auto;
-}
-
-@media only screen and (max-width: 560px) {
-    body {
-        margin-top: 15%;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
-    .links {
-        max-width: 80%;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    .links {
-        max-width: 100%;
-    }
 }
 
 .link {
