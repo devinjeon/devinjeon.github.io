@@ -1,7 +1,8 @@
 body {
     text-align: center;
     font-family: 'Work Sans', sans-serif;
-    color: #333;
+    color: #d9dddc;
+    background-color: #222021;
 }
 
 h1 {
@@ -80,7 +81,7 @@ a:hover, a.active, a:active, .show > a.dropdown-toggle {
 }
 
 .link-github {
-    color: #393e42;
+    color: #bebdb8;
     background-color: transparent;
 }
 
