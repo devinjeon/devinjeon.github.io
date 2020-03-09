@@ -1,7 +1,6 @@
 body {
     text-align: center;
     font-family: 'Work Sans', sans-serif;
-    margin-top: 20%;
     color: #333;
 }
 
@@ -14,9 +13,7 @@ h1 {
 }
 
 section {
-    max-width: 100%;
-    width: 550px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 ul {
@@ -33,12 +30,20 @@ a:hover, a.active, a:active, .show > a.dropdown-toggle {
     text-decoration:none;
 }
 
+#outer {
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .mail {
     color: #dc8100;
 }
 
 .links {
-    max-width: 60%;
     margin: 0 auto;
 }
 
