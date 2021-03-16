@@ -90,3 +90,14 @@ a:hover, a.active, a:active, .show > a.dropdown-toggle {
     background-color: #393e42;
     border-color: #7F8387;
 }
+
+.link-blog {
+    color: #3db39e;
+    background-color: transparent;
+}
+
+.link-blog:hover, .link-blog.active, .link-blog:active, .show > .link-blog.dropdown-toggle {
+    color: #fff;
+    background-color: #3db39e;
+    border-color: #57b5a4;
+}
